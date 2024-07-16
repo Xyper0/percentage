@@ -1,0 +1,138 @@
+.hero_page {
+    width: 100%;
+    height: 95vh;
+    background-color: var(--primery-color);
+}
+
+
+.hero_percen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'almarai' , sans-serif;
+}
+
+
+
+
+
+.percen_text {
+    text-align: center;
+}
+
+
+.percen_text h3 {
+    font-weight: bold;
+}
+
+
+.percen_text p {
+    color: var(--note-font-color);
+}
+
+.percen_form {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+
+.percen_inputs_group {
+    display: flex;
+    flex-direction: column;
+    gap:5px; 
+}
+
+
+.percen_inputs_group label {
+    font-weight: bold;
+    font-size: 14px;
+    color: var(--note-font-color);
+}
+
+.percen_inputs_group input {
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 10px;
+    color: var(--font-color);
+    font-weight: 500;
+    font-family: 'Inter',sans-serif;
+    background-color: var(--secondary-color);
+    border: none;
+    width: 50px;
+}
+
+
+
+#percen_input1 {
+    margin-left:25px;
+}
+
+#percen_input2 {
+    margin-right: 25px;
+}
+
+
+
+
+
+
+.percen_submit {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 25px;
+}
+
+.percen_submit_button button {
+    border:none;
+    color: var(--before-font-color);
+    border-radius: 8px;
+    font-family: 'almarai',sans-serif;
+    background-color: var(--secondary-color);
+    padding: 10px;
+    cursor: pointer;
+    transition: transform 0.5s ease;
+}
+
+
+.percen_submit_button button:hover {
+    transform: scale(1.1);
+}
+
+
+
+.percen_submit_result {
+    width: fit-content;
+    height: 60px;
+    background-color: var(--secondary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    font-size: 20px;
+    padding-top: 2px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-top:10px;
+}
+
+.percen_submit_result a {
+    font-family: 'Inter',sans-serif;
+
+}
+
+
+#remember a {
+    font-family: 'Tajawal',sans-serif;
+    font-weight: bold;
+    font-size:10px;
+    color: var(--note-font-color);
+}
