@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/percen/static/css/main.7fbd4df1.css",
+    "main.js": "/percen/static/js/main.dad6b4ae.js",
+    "index.html": "/percen/index.html",
+    "main.7fbd4df1.css.map": "/percen/static/css/main.7fbd4df1.css.map",
+    "main.dad6b4ae.js.map": "/percen/static/js/main.dad6b4ae.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7fbd4df1.css",
+    "static/js/main.dad6b4ae.js"
+  ]
+}
