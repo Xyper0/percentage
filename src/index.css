@@ -2,6 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family=Inter:wght@100..900&family=Noto+Kufi+Arabic:wght@100..900&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
 body {
     margin: 0;
+    background-color: var(--primery-color);
+    
 }
 
 :root {

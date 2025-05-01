@@ -1,7 +1,6 @@
 import React from "react"; 
 
 
-
 //pages
 import Percentage from "./pages/percentage";
 

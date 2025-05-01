@@ -15,7 +15,11 @@
 
 
 
-
+.percen_container { 
+    background-color: #dbdbdb;
+    padding:20px;
+    border-radius: 20px;
+}
 .percen_text {
     text-align: center;
 }

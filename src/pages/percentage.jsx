@@ -50,7 +50,10 @@ export default function Percentage() {
           setResult(total.toFixed(3).replace(/\.?0*$/, ''));
           const rememberElement = document.querySelector('#remember > a');
           if (rememberElement) {
-              rememberElement.textContent = ".تذكر أن الأرزاق مكتوبة وأن الله لن يضيع لك تعب";
+              rememberElement.textContent = `
+              تذكر أن الأرزاق مكتوبة وأن الله لن يضيع لك تعب. \n
+              ( دعواتكم  لي بالتوفيق )  
+              `;
           } else {
               console.error('Element #remember > a not found!');
           }
@@ -77,7 +80,7 @@ export default function Percentage() {
                 <div className="percen_text">
                     <h2>👌 احسب موزونتك بسهولة وبسرعة</h2>
                     <p >.حساب النسبة الموزونة لخريجي المرحلة الثانوية المكونة من الثانوي والقدرات والتحصيلي بكل سلاسة</p>
-                    <p style={{fontWeight:'bold'}}>((اذا لم تحتج احد الخانات اتركه فارغاًُ))</p>
+                    <p style={{fontWeight:'bold'}}>((اذا لم تحتج احد الخانات اتركه فارغاً))</p>
                 </div>
                     <div className="percen_form">
                         <div className="percen_inputs" id="percen_input1">
